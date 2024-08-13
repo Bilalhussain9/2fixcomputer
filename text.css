@@ -1,0 +1,213 @@
+nav {
+    height: 74px;
+}
+
+.colors {
+    color: #0092E7;
+}
+
+.colorss {
+    background-color: #0092E7;
+}
+
+.Successful {
+    background-image: url(../test/image/a.png);
+    background-size: cover;
+}
+
+.bggg {
+    background-color: #00395A;
+    height: 30px;
+}
+
+.bggg span {
+    font-size: 14px;
+}
+
+.as {
+    margin-right: 500px;
+}
+
+.pe {
+    padding-right: 100px;
+}
+
+.az button {
+    font-size: 12pt;
+    background-color: #0092E7;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 3px solid white;
+    margin: 20px;
+    position: relative;
+    letter-spacing: 1px;
+    outline: none;
+}
+
+.az button:before {
+    content: '';
+    width: 40px;
+    height: 20px;
+    background: white;
+    border: 3px solid white;
+    transform: rotate(40deg);
+    position: absolute;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 0;
+    bottom: -7px;
+    left: -13px;
+}
+
+.az button:after {
+    content: '';
+    width: 40px;
+    height: 20px;
+    background: white;
+    border: 3px solid white;
+    transform: rotate(-135deg);
+    position: absolute;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 0;
+    top: auto;
+    right: -13px;
+    top: -8px;
+}
+
+.fw-700 {
+    font-family: 'Tomorrow', sans-serif;
+    font-weight: 700 !important;
+    font-size: 4vw;
+}
+
+.fw-500 {
+    font-family: 'Tomorrow', sans-serif;
+    font-weight: 500 !important;
+}
+
+.fw-300 {
+    font-family: 'Tomorrow', sans-serif;
+    font-weight: 300 !important;
+    font-size: 4vw;
+
+}
+
+.fw-600 {
+    font-family: 'Tomorrow', sans-serif;
+    font-weight: 600 !important;
+    font-size: 2.9vw;
+
+}
+
+.azx {
+    height: 48px;
+    background-color: #8484841d;
+    padding-left: 10px;
+}
+
+.company1 {
+    background-image: url(.//image/Repair\ BG.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.COMPANY {
+    padding-top: 6rem;
+    padding-bottom: 15rem;
+
+}
+
+.azxcv {
+    background-color: #E7F8FF;
+    width: 309px;
+    height: 228px;
+}
+
+.RenovateSecond {
+    position: absolute;
+    top: 80%;
+}
+
+.RenovateSecond .card {
+    width: 324px;
+    background-color: #ffffff;
+}
+
+.RenovateSecond .card a {
+    background-color: #D8F1FF;
+    color: #0092E7 !important;
+}
+
+.bgblack {
+    background-image: url(https://s3-alpha-sig.figma.com/img/27c3/17c6/980190f1b685a2a5a725303c71fb9203?Expires=1698624000&Signature=hJNxV8th5CHGpkyOC1XOiRon1auk-FQcQw~jw0MDs660an3ykj--XofWFnlBdh6PABwO0LqLPBSOJQYuWOKN5egtFrvbG7t8Iqz5rnrptBiwu9nxNi1vl~3XXfPfcDvSWRQgi4Xs0YvBCHX7CeTpxVIsaoMHFredeelX1E1IqMRdiecEaLbQfjFzQylK6euCRTYVaM4bOHs19uYRRwgBSV1pQ-JmGDe0kR-3cBDE88aWfdeUy4BtWRH76MZOI61KFaEpFQeJz89AofRe9yFoL6ilE1IdHlgOvJQWTyGh8Iz2bfah7mr~OJphkO6SCQLNe89SgRrDI3hhnFlv5~vJpA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+    background-size: cover;
+}
+
+.bgblack .Fix {
+    padding-top: 280px;
+}
+
+.Schedule {
+    background-color: #0092E7;
+}
+
+/* .happy-clients {
+    position: absolute;
+    top: 40%;
+} */
+
+.Happy {
+    background-image: url(.//image/testi-bg-1-1\ 1.png);
+    height: 500px;
+}
+
+.choose {
+    background-image: url(.//image/end\ bg.png);
+    background-repeat: no-repeat;
+}
+
+.footer1 {
+    background-color: #DDF2FF;
+}
+
+
+@media(max-width:992px) {
+    .Happy {
+        height: auto;
+    }
+
+    .bgblack .Fix {
+        padding-top: 50px;
+    }
+
+    nav {
+        height: auto;
+    }
+
+}
+
+@media(max-width:768px) and (min-width:321px) {
+
+}
+
+@media(max-width:1700px) {
+
+    .as {
+        margin-right: 0;
+    }
+
+    .pe {
+        display: none;
+    }
+
+}
+
+.aaa {
+    background-image: url(.//image/Ellipse\ 1.svg);
+    background-repeat: no-repeat;
+    background-position-x: 60%;
+}
